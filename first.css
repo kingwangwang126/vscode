@@ -257,10 +257,10 @@ body {
     object-fit: cover;
 }
 .door-container:hover .door.left {
-  transform: rotateY(-120deg);  /* 向左旋转 */
+  transform: rotateY(-120deg);  
 }
 .door-container:hover .door.right {
-  transform: rotateY(120deg);   /* 向右旋转 */
+  transform: rotateY(120deg);  
 }
 .mid { background: url('背景.jpg') center/cover; position: relative; overflow: hidden; }
 .left, .right { position: absolute; width: 50%; height: 100%; transition: transform 0.5s; }

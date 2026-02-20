@@ -183,7 +183,7 @@
             width: auto;
         }
         
-        /* 自定义滚动条 */
+        
         .item-content::-webkit-scrollbar {
             width: 6px;
         }
@@ -191,19 +191,7 @@
      </style>
 </head>
 <body>
-    <div class="header">
-        1
-    </div>
-    <div class="con">
-        <div class="wra">
-            <ul>
-                <li><a href="file:///D:/vscode/chinachildenindex.html#" target="_blank">首页</a></li>
-                <li><a href="https://kingwangwang126.github.io/vscode/iiiiiii.html" target="_blank">更多信息</a></li>
-                <li><a href="https://kingwangwang126.github.io/vscode/buchong.html" target="_blank">关于大学生</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="header"></div>
+    
     <div class="container">
         <div class="sidebar">
             <h1>大学生助力失踪儿童寻找行动指南</h1>
@@ -313,15 +301,14 @@
 </body>
 </html>
     <script>
-        // 为每个列表项添加点击效果
+       
         document.querySelectorAll('li').forEach(item => {
             item.addEventListener('click', function() {
-                // 移除其他项目的active状态
+                
                 document.querySelectorAll('li').forEach(li => {
                     li.style.backgroundColor = '#f7dbdb';
                 });
                 
-                // 设置当前项目为active状态
                 this.style.backgroundColor = '#f0c0c0';
             });
         });
